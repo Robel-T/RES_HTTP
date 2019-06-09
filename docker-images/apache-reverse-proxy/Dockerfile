@@ -1,4 +1,8 @@
 FROM php:7.2-apache
+
+RUN apt-get update && \
+    apt-get install -y vim
+
 COPY src/ /etc/apache2
 
 RUN a2enmod proxy proxy_http
