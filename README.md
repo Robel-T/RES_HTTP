@@ -53,3 +53,5 @@ when you run this container, on your browser enter lab.res.ch:9000 and clic on "
 
 docker run -d -p 9000:9000 -v "/var/run/docker.sock:/var/run/docker.sock" portainer/portainer
 
+## Documentation
+Each step has its documentation into its branch (in the docker_images/... folder) (e.g. Step 2 documentation is in fb-express-dynamic branch, docker-images/express-image/ folder)
